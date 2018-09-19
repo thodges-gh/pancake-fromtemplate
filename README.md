@@ -1,3 +1,26 @@
+# Template for Chainlinked Contracts
+
+This is a template that you can use to get started developing [Chainlinked](https://docs.chain.link/v1.0/docs/getting-started) contracts.
+
+## Getting Started
+
+Clone (or fork first) the repo:
+
+```
+git clone https://github.com/thodges-gh/cltemplate.git MyProject
+```
+
+Install dependencies (requires NPM to be installed already):
+
+```
+npm install
+```
+
+Compile contracts
+
+```
+npm run compile
+```
 
 ## Contracts
 
