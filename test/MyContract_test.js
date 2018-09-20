@@ -22,7 +22,7 @@ contract("Pancake", () => {
     );
   });
 
-  describe("requestBytes32", () => {
+  describe("fallback", () => {
     context("Without LINK", () => {
       it("Reverts", async function () {
         await assertActionThrows(async () => {
@@ -52,7 +52,7 @@ contract("Pancake", () => {
     });
   });
 
-  describe("bytes32Callback", () => {
+  describe("fulfill", () => {
     let response = "Chainlink";
     let internalId;
 
